@@ -3,7 +3,9 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 #gem  'rails', '3.2.13'
 
-gem 'sinatra', '1.1.0'
+#gem 'strong_parameters'
+
+#gem 'sinatra', '1.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -53,7 +55,7 @@ end
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+#gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development

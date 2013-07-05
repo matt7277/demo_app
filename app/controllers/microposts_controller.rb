@@ -70,5 +70,6 @@ class MicropostsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def micropost_params
       params.require(:micropost).permit(:content, :user_id)
+#      validates :content, :length => { :maximum => 140 }
     end
 end
